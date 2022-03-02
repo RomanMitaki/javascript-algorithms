@@ -29,7 +29,8 @@ function palindrome(str) {
 
 console.log(palindrome("Топот")); // должно быть true
 console.log(palindrome("Saippuakivikauppias")); // true
-console.log(palindrome("привет")); // false
+console.log(palindrome("привет"));
+console.log(palindrome('О, лета тело!')); // true
 
 /*
  * Бонус. Задача для любознательных. Пусть функция принимает на вход любую строку,
